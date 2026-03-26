@@ -12,3 +12,7 @@ def sub():
 def mul():
     mul = num1 * num2
     print(mul)
+
+addition()
+sub()
+mul()
