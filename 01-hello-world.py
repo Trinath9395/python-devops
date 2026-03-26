@@ -8,5 +8,5 @@ sub = num1 - num2
 print("value of sub -" + str(sub))
 
 mul = num1 * num2 
-print("value of the nul -" + str(mul))
+print("value of the mul -" + str(mul))
 
