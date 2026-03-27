@@ -11,9 +11,15 @@ def mul(num1, num2):
     mul = num1 * num2 
     return mul 
 
-num1 = int(sys.argv[1])
-operation = sys.argv[2]
-num2 = int(sys.argv[3])
+def div(num1, num2):
+    if num2 == 0:
+        return "Error: Division by Zero"
+    return num1 / num2
+
+# Ask user for input
+num1 = int(input("Enter the first number: "))
+operation = input("Enter operation (add, sub, mul, div): ")
+num2 = int(input("Enter the second number: "))
 
 if operation == "add":
     output = add(num1, num2)
@@ -21,6 +27,8 @@ elif operation == "sub":
     output = sub(num1, num2)
 elif operation == "mul":
     output = mul(num1, num2)
+elif operation == "div":
+    output = div(num1, num2)
 else: 
     output = "unknown operation"
 print(output)
