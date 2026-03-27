@@ -1,4 +1,5 @@
 import sys 
+import os 
 def add(num1, num2):
     add = num1 + num2 
     return add 
@@ -32,3 +33,6 @@ elif operation == "div":
 else: 
     output = "unknown operation"
 print(output)
+
+print(os.getenv("password"))
+print(os.getenv("apitoken"))
