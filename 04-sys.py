@@ -36,3 +36,4 @@ print(output)
 
 print(os.getenv("password"))
 print(os.getenv("apitoken"))
+print(os.getlogin)
