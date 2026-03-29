@@ -1,2 +1,4 @@
-for numbers in range(10):
-    print(numbers)
+colours = ["white", "green", "red"]
+
+for i in colours:
+    print(i)
